@@ -1,0 +1,5 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: opf-jupyterhub
+resources:
+  - s2i-spark3.0.1-minimal-notebook.yaml
